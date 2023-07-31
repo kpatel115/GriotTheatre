@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Heading - Header content and Navigation*/
+
+header{
+    width: 100%;
+    height:200px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.header-logo{
+    margin: 1rem 8rem;
+    padding: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem
+}
+.nav-container{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+
+}
+nav{
+    margin: 1rem 1rem;
+    padding: 1rem;
+    width: 100%;
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly ;
+    list-style-type: none;
+    font-size: 1.25em;
+}
+
+/* Main - Body content of the page*/
+
+.main-heading{
+    width: 100%;
+    height: 30%;
+}
+.main-header{
+    color: white;
+    /* background-color: inherit; */
+    /* z-index: 1; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    font-size: 4em;
+}
+.main-background-image{
+    z-index: -1;
+    height: 100%;
+    width: auto;
+    position: relative;
+}
+.main-background-image-img{
+    object-fit: cover;
+    display: block;
+    max-width: 100%;
+    width:100% ;
+}
+/* Main - Content of page - Featured Shows lisitng*/
+
+.featured-shows{
+    width: 100%;
+    height: auto;
+}
+.featured-shows-info{
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.featured-shows-info h4{
+    font-size: 1.75em;
+    font-weight: bolder;
+}
+.featured-shows-info p{
+    font-size: medium;
+    font-weight: bold;
+}
+
+.featured-shows-date{
+    width: 95%;
+    display: block;
+    background-color: rgb(233, 233, 233);
+    color: black;
+    padding:3px;
+    margin: 5px;
+    margin-bottom: 2em;
+    border: 1px solid gray;
+}
+.featured-shows-date-heading{
+    margin-left: 2em;
+}
+.featured-shows-content-wrapper{
+    margin: 5rem 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.featured-shows-listing{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.featured-shows-listing button{
+    font-size: 1em;
+    background-color: rgb(255, 203, 60);
+    color: white;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+}
+hr{
+        border: 0;
+        clear:both;
+        display:block;
+        width: 96%;               
+        background-color:#969696;
+        height: 1px;
+        margin: 1em 1em;
+
+}
+.info-box{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding:5px;
+}
+.footer-container{
+    background-color: black;
+    color: white;
+    width: auto;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+}
+.map{
+    width: 350px;
+    padding: 2%;
+}
+.map-img{
+    width: 325px;
+}
+.tiny i{
+    color: rgb(194, 147, 28);
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+a {
+    list-style-type: none;
+    color: inherit;
+    text-decoration: none;
+    transition: 0.8s ease-in-out;
+}
+a:hover{
+    color: goldenrod;
+    transition: 0.8s ease-in-out;
+}
+.footerinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 30%;
+    font: 1em;
+}
+.footershows{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 25%;
+    font: 1em
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 25%;
+    font: 0.6em;
+
+}
+.foothead{
+    font-size: 2em;
+}
